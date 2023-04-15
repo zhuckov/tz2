@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+p,h1,h2,h3,h4,h5,h6,a,li{
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.main{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advantages__block, .name__brands,.main__faq__block,.second__main__menu{
+    width: 1150px;
+    margin-top: 140px;
+} 
+.name__brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name__brands__item{ 
+    opacity: 0.7;
+}
+.advantages__block{
+    display: flex;
+    justify-content: space-between;
+}
+.advantages__block__with__image, .advantages__block__with__image img {
+    width: 574px;
+    height: 574px;
+}
+.advantages__block__with__text{
+    margin-top: 52px;
+    width: 500px;
+}
+.main__title, .main__faq__title{
+    font-size: 39px;
+    line-height: 54px;
+    color: #000000;
+}
+.main__desc{ 
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(1, 7, 13, 0.7);
+    margin: 25px 0;
+}
+.main__desc span, .main__title span, .main__faq__block span{
+    font-weight: 600;
+}
+.main__menu__li{
+    font-size:16px;
+    line-height: 26px;
+    color:#01070D;
+    opacity: 0.5;
+}
+
+.main__menu {
+    overflow: hidden;
+    padding: 0;
+    list-style-type: none;
+}
+.menu__item{
+    display: flex; 
+    align-items: center;;
+    margin-top: 20px;
+} 
+.main__menu__image{
+    margin-right: 15px;
+}
+.advantages__block__with__text .header__content__title{
+    margin-bottom: 10px;
+}
+.main__faq__block{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.main__faq {
+    min-width: 465px;
+}
+.main__faq__block-with-img, .main__faq__block-with-img img{
+    width: 750px;
+}
+.card__title__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{ 
+    width: 475px;
+    padding: 18px 24px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px rgba(34, 60, 80, 0.085);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.card__title_active{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1D92FF;
+    line-height: 30px;
+    min-width: 330px;
+}
+.card__title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #808386;
+    line-height: 26px;
+    min-width: 330px;
+}
+.card__desc__block{
+    margin-top: 20px;
+    margin-left: 11px;
+}
+.card__desc{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(1, 7, 13, 0.6);
+}
+.card__desc span{
+    text-decoration: underline #1D92FFA6;
+    font-weight: 400;
+    color: #1D92FFA6;
+}
+.card__image{
+    width: 25px;
+    height: 25px;
+    stroke: #808386;
+}
+.card__image_active{
+    stroke: #1D92FF;
+    transform: rotate(180deg);
+}
+
+.faq-list{
+    margin-top: 42px;
+}
+
+
+.faq__btn{
+    width: 200px;
+    padding: 15px 30px 15px 30px;
+    border-radius:4px;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    box-sizing: border-box;
+}
+.main__faq__button__blue{
+    background-color: #1D92FF;
+    color: white;
+}
+.main__faq__button__white{
+    background-color: white;
+    color:  #1D92FF;
+    border: 1px solid rgba(29, 146, 255, 0.1);
+    margin-left: 25px;
+}
+.second__main__menu{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bold__title{ 
+    font-weight: 600;
+}
+.base__main__text{ 
+    font-size: 16px;
+    color: rgba(1, 7, 13, 0.7);
+}
+.second__main__menu__text__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 630px;
+}
+.second__main__menu h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.second__main__menu__block{
+    width: 1150px;
+}
+.menu__list__image__wrapp{
+    width: 62px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu__list__item__image{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+.menu__list__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu__list__text__wrapp{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu__list__item__title{
+    margin-top: 25px;
+    margin-bottom: 15px; 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.menu__list__item__desc{
+     font-size: 16px;
+     color: rgba(1, 7, 13, 0.7);
+     line-height: 26px;
+     width: 230px;
+     text-align: center;
+}
+.second__menu__list{ 
+    box-sizing: border-box;
+    padding: 40px 68px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu__list__item:nth-child(3n+2) {
+    margin: 60px 60px;
+}
+.menu__list__item {
+    margin-top: 60px;
+}
+.suggestions{ 
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.suggestions__title{ 
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 55px;  
+    text-align: center;  
+}
+.suggestions__p{ 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;    
+    color: rgba(1, 7, 13, 0.7);
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.suggestion__card__list{
+    display: flex;
+    align-items: center;
+}
+.suggestion__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.suggestion__card__title{ 
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.suggestion__card__title_pro{ 
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+}
+.suggestion__card{
+    border:1px solid rgba(29, 146, 255, 0.2);
+    padding: 30px 80px; 
+    height: 537px;
+    width: 370px;
+}
+.suggestion__card_blue{ 
+    padding: 50px 80px;
+    background: linear-gradient(180deg, #1D92FF 0%, #002648 0.01%, #002547 100%);
+    box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.05);
+    height: 613px;
+}
+
+.suggestion__card__desc{
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 185px;
+    color: rgba(1, 7, 13, 0.7);
+}
+.suggestion__card__desc_pro{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.suggestion__card__price{
+    font-size: 39px;
+    line-height: 55px;
+    font-weight: 500;
+    color: #000000;
+}
+.suggestion__card__price_pro{ 
+    color: white;
+}
+.suggestion__card__p{
+    margin-left:10px ;
+    width: 210px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.suggestion__card__p__pro{ 
+    color: white;
+}
+
+.suggestion__card__button{
+    padding: 15px 30px 15px 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    background-color: #1D92FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 210px;
+    margin-top: 40px;
+}
+.suggestion__card__button_pro{ 
+    color: #1D92FF;
+    background-color: white;
+}
+
+.suggestion__card__item{
+    display: flex;
+}
+
+.switch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    width: 230px;
+    height: 36px;
+    border: 0.5px solid rgba(1, 7, 13, 0.05);
+    background: #FAFAFA;
+
+}
+.switch_pro{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.switch__item{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 13px;
+    width: 50%;
+    height: 36px;
+    border-radius: 18px ;
+    color: black;
+    line-height: 24px;
+    font-family: 'Poppins';
+}
+.switch__item_pro{
+    color: white;
+
+}
+.switch__item_active{
+    box-shadow: 4px 2px 38px rgba(0, 0, 0, 0.02);
+    background-color: white;
+}
+.switch__item_pro_active{
+    background-color: #1D92FF;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+button{ 
+    cursor: pointer;
+}
